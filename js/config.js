@@ -30,6 +30,7 @@ window.SITE_CONFIG = SITE_CONFIG;
 
 // API站点配置
 const API_SITES = {
+    yjzy: { api: 'https://caiji.maotaizy.cc/api.php/provide/vod', name: '影剧资源' },
     bfzy: { api: 'https://bfzyapi.com/api.php/provide/vod', name: '暴风资源' },
     mozhua: { api: 'https://mozhuazy.com/api.php/provide/vod', name: '魔爪资源' },
     dyttzy: { api: 'https://caiji.dyttzyapi.com/api.php/provide/vod', name: '电影天堂', detail: 'https://caiji.dyttzyapi.com' },
@@ -53,7 +54,7 @@ const API_SITES = {
 };
 
 window.API_SITES = API_SITES;
-const DEFAULT_SELECTED_APIS = ["mozhua", "bfzy", "dyttzy", "maotai", "tyyszy", "mdzy"];
+const DEFAULT_SELECTED_APIS = ["yjzy", "mdzy", "mozhua", "bfzy", "dyttzy", "tyyszy"];
 window.DEFAULT_SELECTED_APIS = DEFAULT_SELECTED_APIS;
 
 // 聚合搜索配置
